@@ -5,6 +5,10 @@
 }
 body {
   font-family: "Fjalla One", sans-serif;
+  background-color: #1f2937;
+  color: white;
+  height: 100vh;
+  width: 100vw;
 }
 
 .container {
@@ -17,13 +21,17 @@ body {
 }
 header {
   background-color: #1e40af;
-  height: 10%;
   color: white;
 }
 header h1 {
   padding: 0.5rem 10px;
   font-weight: 400;
 }
+
+h3 {
+  padding-top: 2rem;
+}
+
 header nav {
   display: flex;
   align-items: flex-end;
@@ -63,23 +71,37 @@ label {
 }
 .output-el {
   margin-top: 1rem;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* quiz  */
+.quiz-form {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+}
+.question-container {
+  padding: 2rem;
+}
+.question-container p {
+  padding: 1rem;
+}
+.question-container label {
+  padding: 2px;
+  font-weight: 200;
 }
 
 footer {
   position: fixed;
-  bottom: 10px;
+  bottom: 5px;
 }
 footer a {
   text-decoration: none;
-  color: #333;
+  color: white;
 }
 footer .fa-brands {
   cursor: pointer;
   text-decoration: none;
-  color: #333;
   font-size: 1.5rem;
   padding: 10px 10px 0 10px;
 }
