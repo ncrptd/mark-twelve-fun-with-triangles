@@ -38,8 +38,10 @@ header nav a {
 header nav a:hover {
   color: bisque;
 }
+h1 {
+  padding-bottom: 10px;
+}
 /* isTriangle section */
-
 label {
   margin-top: 1rem;
 }
