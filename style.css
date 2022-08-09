@@ -8,9 +8,15 @@ body {
   background-color: #1f2937;
   color: white;
   height: 100vh;
-  width: 100vw;
 }
-
+button {
+  border: none;
+  padding: 1rem 0.7rem;
+  background-color: #1e40af;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -18,6 +24,7 @@ body {
   justify-content: center;
   text-align: center;
   padding-top: 20px;
+  height: 90vh;
 }
 header {
   background-color: #1e40af;
@@ -30,6 +37,7 @@ header h1 {
 
 h3 {
   padding-top: 2rem;
+  color: green;
 }
 
 header nav {
@@ -61,53 +69,29 @@ label {
   border: 1px solid gray;
   text-align: center;
 }
-.is-triangle-button {
-  border: none;
-  padding: 1rem 0.7rem;
-  background-color: #1e40af;
-  border-radius: 10px;
-  font-size: 18px;
-  color: white;
-}
+
 .output-el {
   margin-top: 1rem;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 /* quiz  */
 .quiz-form {
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 40px;
 }
 .question-container {
-  padding: 2rem;
+  margin: 2rem 0;
 }
 .question-container p {
   padding: 1rem;
 }
 .question-container label {
-  padding: 2px;
   font-weight: 200;
 }
-
-footer {
-  position: fixed;
-  bottom: 5px;
+.question-container input {
+  margin: 0 15px 0 15px;
 }
-footer a {
-  text-decoration: none;
-  color: white;
-}
-footer .fa-brands {
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 1.5rem;
-  padding: 10px 10px 0 10px;
-}
-footer .fa-brands:hover {
-  color: #1e40af;
-}
-footer p a:hover {
-  color: #1e40af;
+.quiz-output {
+  padding: 2rem;
 }
