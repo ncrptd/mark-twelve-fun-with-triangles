@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fun with triangles</title>
+    <title>Quiz</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -18,16 +18,17 @@
       </nav>
     </header>
     <div class="container">
-      <h1>Angles of Triangle</h1>
-      <label for="angle-1">Angle 1</label>
-      <input type="number" class="angle-input" />
-      <label for="angle-1">Angle 2</label>
-      <input type="number" class="angle-input" />
-      <label for="angle-1">Angle 3</label>
-      <input type="number" class="angle-input" />
-      <button class="is-triangle-button">Is Triangle?</button>
+      <h1>Calculate Hypotenuse of a triangle</h1>
+      <label for="base">Enter base value (a) =</label>
+      <input class="hypo" type="number" id="base" />
+      <label for="height">Enter height value (b) =</label>
+      <input class="hypo" type="number" id="height" />
+      <button id="hypo-btn">Calculate Hypotenuse</button>
+      <h1>Hypotenuse formula</h1>
+      <h3>√(base² + height²)</h3>
       <h2 class="output"></h2>
     </div>
-    <script src="isTriangle.js"></script>
+
+    <script src="hypotenus.js"></script>
   </body>
 </html>

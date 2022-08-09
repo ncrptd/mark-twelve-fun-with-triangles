@@ -1,7 +1,7 @@
 let form = document.querySelector(".quiz-form");
 let submitButton = document.querySelector(".submit");
-let outputEl = document.querySelector(".quiz-output");
-const correctAnswers = ["90°", "right angled", "one right angle"];
+let outputEl = document.querySelector(".output");
+const correctAnswers = ["90°", "right angled", "one right angle", "12, 16, 20"];
 // const selectedAnswers = [];
 function calculateScore(event) {
   event.preventDefault();
