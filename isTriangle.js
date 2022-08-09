@@ -1,6 +1,6 @@
 let angleInputs = document.querySelectorAll(".angle-input");
 let isTriangleButton = document.querySelector(".is-triangle-button");
-let outputEl = document.querySelector(".output-el");
+let outputEl = document.querySelector(".output");
 
 function calculateSumOfTriangles() {
   let sum = 0;

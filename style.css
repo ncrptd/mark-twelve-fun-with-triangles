@@ -7,11 +7,10 @@ body {
   font-family: "Fjalla One", sans-serif;
   background-color: #1f2937;
   color: white;
-  height: 100vh;
+  height: 100%;
 }
 button {
   border: none;
-  margin: 20px 0;
   padding: 1rem 0.7rem;
   background-color: #1e40af;
   border-radius: 10px;
@@ -25,14 +24,13 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-top: 20px;
-  /* height: 90vh; */
+  padding-top: 10px;
 }
 header {
   background-color: #1e40af;
   color: white;
 }
-header h1 {
+h1 {
   padding: 0.5rem 10px;
   font-weight: 400;
 }
@@ -64,7 +62,8 @@ label {
   margin-top: 1rem;
 }
 .angle-input,
-.hypo {
+.hypo,
+.area {
   margin: 1rem 0;
   width: 30%;
   padding: 0.7rem 0;
@@ -74,17 +73,17 @@ label {
 }
 
 .output {
-  margin-top: 1rem;
-  /* font-size: 1.2rem; */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 1rem;
+  padding: 2rem;
 }
 /* quiz  */
 .quiz-form {
   font-family: Arial, Helvetica, sans-serif;
 }
 .question-container {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 .question-container p {
   padding: 1rem;
