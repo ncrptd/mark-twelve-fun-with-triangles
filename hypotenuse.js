@@ -4,8 +4,13 @@ let hypoBtn = document.querySelector("#hypo-btn");
 let outputEl = document.querySelector(".output");
 
 function calculateHypotenuse() {
-  if (base.value == "" || height.value == "") {
-    outputEl.innerText = "Please Enter all the fields";
+  if (
+    base.value == "" ||
+    height.value == "" ||
+    base.value < 0 ||
+    height.value < 0
+  ) {
+    outputEl.innerText = "Please Enter valid input";
   } else {
     let a = +base.value;
     let b = +height.value;
