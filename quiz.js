@@ -7,6 +7,11 @@ const correctAnswers = [
   "one right angle",
   "12, 16, 20",
   "Equilateral triangle",
+  "100°",
+  "30°",
+  "a + b + c",
+  "no",
+  "45°",
 ];
 // const selectedAnswers = [];
 function calculateScore(event) {
